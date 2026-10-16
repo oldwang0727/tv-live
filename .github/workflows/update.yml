@@ -1,0 +1,22 @@
+name: 更新直播源
+on:
+  schedule:
+    - cron: '0 22 * * *'
+  workflow_dispatch: {}
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 生成精简直播源
+        run: node filter.mjs
+      - name: 提交更新
+        run: |
+          git config user.name "auto-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add lite.m3u
+          git diff --cached --quiet || git commit -m "auto: update $(date -u +%Y-%m-%d)"
+          git push
