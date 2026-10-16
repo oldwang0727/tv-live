@@ -1,0 +1,14 @@
+{
+  "spider": "",
+  "lives": [
+    {
+      "name": "雷鸟电视直播",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/你的用户名/你的仓库名/main/lite.m3u"
+    }
+  ],
+  "sites": [],
+  "parses": [],
+  "flags": [],
+  "download": {}
+}
