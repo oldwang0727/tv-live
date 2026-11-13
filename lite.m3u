@@ -1,11 +1,11 @@
 #EXTM3U
-#雷鸟电视精简直播源 — 更新时间: 2026-11-12T02:36:13.798Z
+#雷鸟电视精简直播源 — 更新时间: 2026-11-13T02:13:12.888Z
 #EXTINF:-1 group-title="📺央视频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png",CCTV-1
 http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
 #EXTINF:-1 group-title="📺央视频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-2.png",CCTV-2
 http://204.12.221.218:8181/3m1080p/cctv2.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-3.png",CCTV-3
-http://74.91.26.218:82/live/cctv3hd.m3u8
+http://69.30.245.50/live/cctv3.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-4.png",CCTV-4
 http://107.150.60.122/live/cctv4hd.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5.png",CCTV-5
@@ -13,7 +13,7 @@ http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
 #EXTINF:-1 group-title="📺央视频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png",CCTV-5+
 http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 #EXTINF:-1 group-title="📺央视频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-6.png",CCTV-6
-http://74.91.26.218:82/live/cctv6hd.m3u8
+http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-logo="https://i.imgur.com/CKcPMQC.png",CCTV-7
 http://74.91.26.218:82/live/cctv7hd.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-8.png",CCTV-8
@@ -53,7 +53,7 @@ https://stream1.freetv.fun/hu-nan-jiao-yu-6.ctv
 #EXTINF:-1 group-title="☘️湖南频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南经视.png",湖南经视
 https://stream1.freetv.fun/hu-nan-jing-shi-6.m3u8
 #EXTINF:-1 group-title="📡卫视频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png",湖南卫视
-https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
+http://74.91.26.218:82/live/hnwshd.m3u8
 #EXTINF:-1 group-title="☘️湖南频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南娱乐.png",湖南娱乐
 https://stream1.freetv.fun/hu-nan-yu-le-9.ctv
 #EXTINF:-1 group-title="☘️湖南频道" tvg-logo="https://www.xn--rgv465a.top/tvlogo/金鹰纪实.png",金鹰纪实
